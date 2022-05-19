@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 70;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar{
+    background-color: aqua;
+    height: 600;
+}
+.main{ 
+    flex: 3;
+    height: 600px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.flexbox{
+    display: flex;
+}
+
+.box{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+/* this applies to ALL images so if you want any images to be special you need to use class or id*/
+
+
+img{
+    width: 100x;
+    height: 100x;
+    object-fit: cover;
+}
+
+.special{
+    transform: rotateY(-1);
+}
+
+.navleft{
+    width: 400px;
+    height: 100;
+}
